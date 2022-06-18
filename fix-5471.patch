@@ -1,0 +1,83 @@
+diff --git a/admin/package-lock.json b/admin/package-lock.json
+index 461f7dd64..11118100e 100644
+--- a/admin/package-lock.json
++++ b/admin/package-lock.json
+@@ -14979,23 +14979,6 @@
+             "stream-shift": "^1.0.0"
+           }
+         },
+-        "easyrtc": {
+-          "version": "1.1.0",
+-          "resolved": "https://registry.npmjs.org/easyrtc/-/easyrtc-1.1.0.tgz",
+-          "integrity": "sha1-9Ek39xMsuLW6jgvBzD48zEcqPvQ=",
+-          "requires": {
+-            "async": "0.2.x",
+-            "colors": "*",
+-            "underscore": "1.5.x"
+-          },
+-          "dependencies": {
+-            "async": {
+-              "version": "0.2.10",
+-              "resolved": "https://registry.npmjs.org/async/-/async-0.2.10.tgz",
+-              "integrity": "sha1-trvgsGdLnXGXCMo43owjfLUmw9E="
+-            }
+-          }
+-        },
+         "ecc-jsbn": {
+           "version": "0.1.2",
+           "resolved": "https://registry.npmjs.org/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz",
+@@ -18737,8 +18720,7 @@
+           "version": "github:mozillareality/networked-aframe#f4b1f1ccc8871149be2e3aaa24ca665e481c716a",
+           "from": "github:mozillareality/networked-aframe#master",
+           "requires": {
+-            "buffered-interpolation": "^0.2.5",
+-            "easyrtc": "1.1.0"
++            "buffered-interpolation": "^0.2.5"
+           }
+         },
+         "new-array": {
+@@ -31409,4 +31391,4 @@
+       "dev": true
+     }
+   }
+-}
++}
+\ No newline at end of file
+diff --git a/package-lock.json b/package-lock.json
+index 2573babc7..c42329394 100644
+--- a/package-lock.json
++++ b/package-lock.json
+@@ -21571,23 +21571,6 @@
+         "stream-shift": "^1.0.0"
+       }
+     },
+-    "easyrtc": {
+-      "version": "1.1.0",
+-      "resolved": "https://registry.npmjs.org/easyrtc/-/easyrtc-1.1.0.tgz",
+-      "integrity": "sha1-9Ek39xMsuLW6jgvBzD48zEcqPvQ=",
+-      "requires": {
+-        "async": "0.2.x",
+-        "colors": "*",
+-        "underscore": "1.5.x"
+-      },
+-      "dependencies": {
+-        "async": {
+-          "version": "0.2.10",
+-          "resolved": "https://registry.npmjs.org/async/-/async-0.2.10.tgz",
+-          "integrity": "sha1-trvgsGdLnXGXCMo43owjfLUmw9E="
+-        }
+-      }
+-    },
+     "ecc-jsbn": {
+       "version": "0.1.2",
+       "resolved": "https://registry.npmjs.org/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz",
+@@ -27691,8 +27674,7 @@
+       "version": "github:mozillareality/networked-aframe#a691b90cd1c817283fbd4ce32f63b0b184311f4c",
+       "from": "github:mozillareality/networked-aframe#master",
+       "requires": {
+-        "buffered-interpolation": "github:Infinitelee/buffered-interpolation#5bb18421ebf2bf11664645cdc7a15bd77ee2156b",
+-        "easyrtc": "1.1.0"
++        "buffered-interpolation": "github:Infinitelee/buffered-interpolation#5bb18421ebf2bf11664645cdc7a15bd77ee2156b"
+       },
+       "dependencies": {
+         "buffered-interpolation": {
