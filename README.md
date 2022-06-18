@@ -15,7 +15,7 @@ docker-compose up
 ```
 
 ### Adding `hubs.local` host
-You may add `hubs.local as a host in `/etc/hosts`:
+You may add `hubs.local` as a host in `/etc/hosts`:
 ```
 127.0.0.1   hubs.local
 ```
