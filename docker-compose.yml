@@ -2,7 +2,7 @@ version: "3.9"
 services:
   hubs:
     build: ./
-    command: npm run local
     ports:
       - "8080:8080"
+      - "4000:4000"
 
